@@ -1,0 +1,11 @@
+.pokemon-button {
+  height: 50px;
+  width: 200px;
+  background: lightgrey;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.pokemon-list {
+  list-style-type: none;
+}
