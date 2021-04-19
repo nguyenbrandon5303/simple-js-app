@@ -23,8 +23,8 @@ let pokemonRepository = (function () {
 
     // button.classList.add('pokemon-button');
     button.classList.add('btn', 'btn-primary');
-    button.setAttribute('data-target', "#exampleModal");
-    button.setAttribute('data-toggle', "modal");
+    button.setAttribute('data-target', '#exampleModal');
+    button.setAttribute('data-toggle', 'modal');
 
     listItem.appendChild(button);
     pokemonQuery.appendChild(listItem);
@@ -90,7 +90,6 @@ pokemonRepository.loadList().then(function() {
 let pokemonModal = (function() {
 
   function showModal(pokemon) {
-    let modalHeader = $('.modal-header');
     let modalTitle = $('.modal-title');
     let modalBody = $('.modal-body');
 
